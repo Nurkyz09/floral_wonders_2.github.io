@@ -1,0 +1,51 @@
+/* Основные настройки */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Светло-серый фон */
+    margin: 0;
+    padding: 0;
+}
+
+h1, h5 {
+    font-family: 'Georgia', serif;
+}
+
+/* Карточки */
+.card {
+    border: 2px solid #ffc1cc; /* Нежно-розовая рамка */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Увеличение карточки при наведении */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Кнопки */
+.btn-danger {
+    background-color: #e60050; /* Насыщенный красный цвет */
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #b3003b; /* Тёмно-красный при наведении */
+}
+
+/* Хедер */
+header {
+    border-bottom: 2px solid #ffd1dc; /* Розовая линия */
+}
+
+/* Подвал */
+footer {
+    border-top: 2px solid #ffd1dc; /* Розовая линия */
+    font-size: 0.9rem;
+}
+.bg-bright-pink {
+    background-color: #ffd6e9; /* Hot Pink */
+}
+body.bg-beige {
+    background-color: #fffae9; /* Hot Pink */
+}
+
+
